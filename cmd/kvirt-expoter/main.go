@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/version"
-	"github.com/vm-cpu-exporter/collector"
+	"github.com/isempty/kvirt-exporter/collector"
 )
 
 var (
