@@ -21,7 +21,7 @@ func main() {
 	flag.Parse()
 
 	// Prometheus 버전 정보 등록
-	prometheus.MustRegister(version.NewCollector("vm_cpu_exporter"))
+	prometheus.MustRegister(version.NewCollector("kvirt-exporter"))
 
 	// VM CPU 수집기 등록
 	collector, err := collector.NewVMCPUCollector()
