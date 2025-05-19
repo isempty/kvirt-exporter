@@ -1,5 +1,0 @@
-[Unit] Description=VM CPU Exporter for Prometheus
-
-[Service] User=root Type=simple ExecStart=/usr/bin/vm-cpu-exporter KillMode=process Restart=always
-
-[Install] WantedBy=multi-user.target
